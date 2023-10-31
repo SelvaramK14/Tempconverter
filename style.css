@@ -1,0 +1,45 @@
+body{
+    background-image:url("pic.jpeg");
+    background-repeat:no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+h1{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color: #000000;
+}
+.contain{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    top: 25%;
+    left: 5%;
+    margin: auto;
+    background-color: rgb(248, 128, 174,.8);
+    border-radius: 2%;
+}
+.content{
+    text-align: center;
+}
+#temp{
+    padding: 10px;
+}
+.contain1{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    top: 25%;
+    right: 5%;
+    margin: auto;
+    background-color: rgb(248, 128, 174,.8);
+    border-radius: 2%;
+}
+input[type=text], select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
